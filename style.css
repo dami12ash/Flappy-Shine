@@ -1,0 +1,4 @@
+body { margin: 0; font-family: sans-serif; background: #a3d9ff; }
+#menu { text-align: center; margin-top: 20px; }
+button { margin: 5px; padding: 10px 20px; font-size: 1.2em; }
+canvas { display: block; margin: 0 auto; background: url('bg-supermario.png') repeat-x; }
