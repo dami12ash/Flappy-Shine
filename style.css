@@ -1,0 +1,26 @@
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #cce5ff;
+  color: #222;
+  text-align: center;
+}
+#menu, #gameOver {
+  margin-top: 50px;
+}
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 18px;
+}
+.hidden {
+  display: none;
+}
+canvas {
+  display: block;
+  margin: 0 auto;
+  background: url('supermario_bg.png') repeat-x;
+  background-size: cover;
+  border: 3px solid #222;
+}

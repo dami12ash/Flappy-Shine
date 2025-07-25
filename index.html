@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#4CAF50" />
+  <link rel="manifest" href="manifest.json" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Flappy Shine</title>
+</head>
+<body>
+  <div id="menu">
+    <h1>Flappy Shine</h1>
+    <button onclick="startGame()">GIOCA</button>
+    <button onclick="showLeaderboard()">CLASSIFICA</button>
+    <button onclick="showShop()">SKIN</button>
+    <button onclick="showSettings()">IMPOSTAZIONI</button>
+  </div>
+
+  <canvas id="gameCanvas"></canvas>
+
+  <div id="gameOver" class="hidden">
+    <h2>Sconfitta</h2>
+    <p>Monete raccolte: <span id="coinsEarned">0</span></p>
+    <button onclick="restartGame()">Riprova</button>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>
