@@ -1,1 +1,0 @@
-// JavaScript completo per Flappy Shine
