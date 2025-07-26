@@ -1,0 +1,13 @@
+{
+  "name": "Flappy Shine",
+  "short_name": "FlappyShine",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#00cc66",
+  "icons": [{
+    "src": "icon.png",
+    "type": "image/png",
+    "sizes": "192x192"
+  }]
+}

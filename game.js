@@ -1,0 +1,1 @@
+// Codice JS completo del gioco Flappy Shine (placeholder per ora)
